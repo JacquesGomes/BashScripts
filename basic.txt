@@ -1,0 +1,5 @@
+"chmod -x filename" to turn file into executable
+/usr/bin/bash -> bash locate
+location*
+#this is a comment
+": ' text... ' this is a multiline comment

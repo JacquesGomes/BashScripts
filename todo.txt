@@ -1,2 +1,2 @@
-build new server
-add server to the load balancer
+New list:
+Organizar cursos e novos materiais
