@@ -1,0 +1,2 @@
+build new server
+add server to the load balancer
