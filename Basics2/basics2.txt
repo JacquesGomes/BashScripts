@@ -1,0 +1,13 @@
+cp bash/bash.sh backup 
+or cp bash/bash.sh bash/bash2.sh backup
+or cp bash/bash.sh backup/bash1.sh
+
+mv bash/bash.sh bash/bash2.sh backup
+
+mkdir bash/new_bash
+
+mv ~/people/ok.txt /tmp/scratch
+
+less filesnames
+
+tab to autocomplete
