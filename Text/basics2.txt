@@ -1,0 +1,59 @@
+cp bash/bash.sh backup 
+or cp bash/bash.sh bash/bash2.sh backup
+or cp bash/bash.sh backup/bash1.sh
+
+mv bash/bash.sh bash/bash2.sh backup
+
+mkdir bash/new_bash
+
+mv ~/people/ok.txt /tmp/scratch
+
+less filesnames
+
+tab to autocomplete
+
+head -n 5 (argument to display only the first n lines of information) filename 
+
+ls -R -F = -F more details, -R recursive show a lot of info
+
+head -n or tail -n +number will start the lines at the number, from the starting selected point
+
+man tail or man head gives a detailed description of the command
+
+head and tail works with rows
+
+cut works with columns
+
+cut -f 2-5,8 -d , values.csv = 2 to 5 and 8 using comma as the separator. -f = specify columns and -d to specify the separator
+
+!something re-runs the command
+history command will give a list of history with numbers, running !+the number re-runs the command
+
+tail and head print rows, cut print columns and grep print by content
+
+grep incisor namefile (finds the lines in the file with the name specified): useful flags: 
+-c: print a count of matching lines rather than the lines themselves
+-h: do not print the names of files when searching multiple files
+-i: ignore case (e.g., treat "Regression" and "regression" as matches)
+-l: print the names of files that contain matches, not the matches
+-n: print line numbers for matching lines
+-v: invert the match, i.e., only show lines that don't match
+
+-----------------------------------------------------------
+head -n 5 seasonal/summer.csv
+
+Instead of sending head's output to a file, add a vertical bar and the tail command without a filename:
+
+head -n 5 seasonal/summer.csv | tail -n 3
+
+cut -d , -f 1 text.txt | grep -v Tooth | head -n 1
+
+head -n 5 text.txt | tail -n 3
+
+wc = word count; flags: -c -w -l = char, word, line
+
+grep someword text.txt | wc -w
+
+replacing the re-naming of files: cut -d , -f 1 text.txt text1.txt ...
+
+can be: cut -d , -f 1 dir/*.txt or dir/* etc cut -d , -f 1 dir/te*.txt

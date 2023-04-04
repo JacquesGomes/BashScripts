@@ -1,6 +1,0 @@
-Olá, lembrei de algo
-cat
-<
-.
-end
-quit
