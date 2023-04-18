@@ -57,3 +57,67 @@ grep someword text.txt | wc -w
 replacing the re-naming of files: cut -d , -f 1 text.txt text1.txt ...
 
 can be: cut -d , -f 1 dir/*.txt or dir/* etc cut -d , -f 1 dir/te*.txt
+
+* wild cards
+
+? matches a single character, so 201?.txt will match 2017.txt or 2018.txt, but not 2017-01.txt;
+[...] matches any one of the characters inside the square brackets, so 201[78].txt matches 2017.txt or 2018.txt, but not 2016.txt;
+{...} matches any of the comma-separated patterns inside the curly brackets, so {*.txt, *.csv} matches any file whose name ends with .txt or .csv, but not files whose names end with .pdf;
+
+sort -r = sort in reverse alphabetical order
+-n = numericaly; -b = ignore leading blanks; -f be case insensitive
+
+uniq = remove duplicate adjacent lines
+
+cut -d , -f 2 seasonal/winter.csv | grep -v Tooth | sort | uniq -c
+
+> extend.txt command...
+
+wc-l seasonal/*.csv
+
+wc -l seasonal/*.csv | grep -v total
+
+wc -l seasonal/*.csv | grep -v total | sort -n | head -n 1
+
+set | grep HISTFILESIZE = 2000
+
+echo $variable
+
+assign variable = simply write a name and = something
+
+for filetype in gif jpg png; do echo $filetype; done
+it produces:
+
+gif
+jpg
+png
+
+for $variable in list ; do ... ; done
+
+datasets=seasonal/*.csv
+
+for filename in $datasets; do echo $filename; done
+
+dataset=seasonal/*.csv
+for file in $dataset; do grep 2017-07 $file | tail -n 1; done
+
+its possible to separate commands in a loop with semicolons: for filename in $dataset; do head -n 1 $filename; tail -n 1 $filename; done
+
+nano text.txt = iniciar editor nano -> crtl + O para salvar + enter; crtl + X exit
+
+
+copying thing to home = cp seasonal/s* ~
+
+grep -h -v Tooth s*.csv > temp.csv
+
+history | tail -n 3 > steps.txt
+
+bash file.sh = ./file.sh + chmod +x
+
+nano serves to edit also
+
+$@ = any argument sent
+
+for filename in $@ do
+    asdmaçldsm
+done
