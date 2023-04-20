@@ -1,14 +1,0 @@
-Script started on 2023-03-07 18:09:12-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="53"]
-[?2004h]0;jacquesgomes@JacquesGomes: ~[01;32mjacquesgomes@JacquesGomes[00m:[01;34m~[00m$ mv s[K[K[Kl[K[Kls
-[?2004l[0m[01;34mDesktop[0m    [01;34mDownloads[0m     [01;34mMusic[0m     [01;34mPublic[0m  save  [01;34mTemplates[0m   [01;34mVideos[0m
-[01;34mDocuments[0m  [01;34mIdeaProjects[0m  [01;34mPictures[0m  [01;34mrepos[0m   [01;34msnap[0m  typescript
-[?2004h]0;jacquesgomes@JacquesGomes: ~[01;32mjacquesgomes@JacquesGomes[00m:[01;34m~[00m$ c[Kmv save [K[Ke cd[K[K/[K/[K/repos/bash
-[?2004lmv: cannot move 'save' to '/repos/bash': No such file or directory
-[?2004h]0;jacquesgomes@JacquesGomes: ~[01;32mjacquesgomes@JacquesGomes[00m:[01;34m~[00m$ mv save /repos/bash[C[1Prepos/bash.repos/bash
-[?2004lmv: cannot move 'save' to '.repos/bash': No such file or directory
-[?2004h]0;jacquesgomes@JacquesGomes: ~[01;32mjacquesgomes@JacquesGomes[00m:[01;34m~[00m$ mv save .repos/bash[C[1Prepos/bash[C[C[C[C[C[C[C[C[1PashBash
-[?2004l[?2004h]0;jacquesgomes@JacquesGomes: ~[01;32mjacquesgomes@JacquesGomes[00m:[01;34m~[00m$ touch text.txt
-[?2004l[?2004h]0;jacquesgomes@JacquesGomes: ~[01;32mjacquesgomes@JacquesGomes[00m:[01;34m~[00m$ exit
-[?2004lexit
-
-Script done on 2023-03-07 18:10:08-03:00 [COMMAND_EXIT_CODE="0"]
