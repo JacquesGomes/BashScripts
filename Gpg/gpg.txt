@@ -1,0 +1,9 @@
+gpc -c filename
++ password
+
+gpg filename.gpg to decrypt
+
+tar czf myfiles.tar.gz Dir/ -> turn folder into file
+
+tar xzf myfiles.tar.gz -> file back into folder
+
