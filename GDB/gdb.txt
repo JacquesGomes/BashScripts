@@ -1,0 +1,12 @@
+GDB
+
+g++ -g QE.cpp -o file.out
+
+gdb file.out
+
+run -> input
+
+display x
+break 30
+
+next

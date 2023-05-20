@@ -1,0 +1,10 @@
+"./a.out < compile.in > compile.out"
+
+"diff compile.sol compiler.out"
+
+g++ compile.cpp
+
+!g - repete o último comando que comece com "g"
+
+EOF -> while(cin >> x){} (isso funciona quando a entrada é um arquivo/juiz)
+

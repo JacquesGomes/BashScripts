@@ -1,0 +1,33 @@
+TODO: adicionar doxygen onde aplicável
+
+
+
+/.metadata/
+##############################
+## Eclipse
+##############################
+.settings/
+bin/
+tmp/
+.metadata
+.classpath
+.project
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+.factorypath
+.idea/
+
+
+
+=================================
+
+cpp
+
+output/
+doc/
+.vscode/
+a.out
