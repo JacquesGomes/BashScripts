@@ -1,0 +1,27 @@
+DevOps Cycle:
+    defining the deliberables and goals related to the product;
+    defining the software components, their functionality, and relation to each other;
+    write the code for the software components;
+    check if the product work as expected;
+    release to a limited set of users;
+    Review the product one last time;
+    Release for all users.
+
+
+Design -> implement -> test
+
+Automating software build, test and deploy activities + continuosly integrating the code changes with the version control software = DevOps
+
+Microservices usually exchange data through API calls
+
+Requirements:
+    number of new products and features
+
+Design, Develop and Test:
+    Time spent in the development
+    Pass rate of the DevOps tests
+
+Deploy, review Launch
+    Amount of the time the product is unavailable to the users
+    User satisfaction rates
+
